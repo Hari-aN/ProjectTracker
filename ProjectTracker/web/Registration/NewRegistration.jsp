@@ -18,7 +18,7 @@
         
         <div id="registration">
                                                   
-                        <form action="http://localhost:8080/ProjectTracker/Reg">
+            <form method="get" action="../Reg">
                             <table border="3">
                                 <tbody>
                                     <tr>
@@ -60,11 +60,19 @@
                                         <td>Contact No.</td>
                                         <td><input type="text" name="mobile" value="" pattern="[0-9]{10}" required placeholder="MobileNo."/></td>
                                     </tr>
+                                    <tr> 
+                                <td>upload photo</td>
+                                 <td><input type="file" name="img"></td>
+                            </tr>
                                     <tr>
                                         <td><input type="submit" value="submit" name="b1"/></td>
                                     </tr>
                                 </tbody>
                             </table>
+                
+                
+                
+                
                         </form>
                     </div>
         
